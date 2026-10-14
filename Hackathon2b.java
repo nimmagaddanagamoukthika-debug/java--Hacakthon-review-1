@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Hackathon2b {
+    public static void main(String args[]){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter the energy in kwh : ");
+        double energy = sc.nextDouble();
+        
+        if(energy >= 10){
+            System.out.println("Good Energy Generation ");
+        }
+        else{
+            System.out.println("Low Energy Generation ");
+        }
+    }
+}
